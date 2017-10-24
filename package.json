@@ -1,0 +1,57 @@
+{
+  "name": "pg-testdb-template",
+  "version": "1.0.0",
+  "description": "Command line tool for creating a pg-testdb template file",
+  "main": "index.js",
+  "bin": {
+    "pg-testdb-template": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rrwen/pg-testdb-template.git"
+  },
+  "keywords": [
+    "easy",
+    "quick",
+    "isolated",
+    "temporary",
+    "temp",
+    "unit",
+    "test",
+    "testing",
+    "tap",
+    "promise",
+    "tape",
+    "postgres",
+    "pg",
+    "libpq",
+    "postgre",
+    "data",
+    "relational",
+    "database",
+    "db",
+    "rdbms",
+    "management",
+    "system",
+    "postgresql",
+    "createdb",
+    "dropdb",
+    "pgtools",
+    "command",
+    "line",
+    "interface",
+    "template",
+    "cmd",
+    "cli",
+    "tool"
+  ],
+  "author": "Richard Wen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rrwen/pg-testdb-template/issues"
+  },
+  "homepage": "https://github.com/rrwen/pg-testdb-template#readme"
+}
