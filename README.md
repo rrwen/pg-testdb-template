@@ -13,7 +13,7 @@ Command line tool for creating a pg-testdb template file
 
 ## Install
 
-1. Install [Node.js](https://nodejs.org/en/)
+1. Install [Node.js](https://nodejs.org/en/) (v6.0.0+)
 2. Install [pg-testdb](https://www.npmjs.com/package/pg-testdb) via `npm`
 3. Install [pg-testdb-template](https://www.npmjs.com/package/pg-testdb-template) via `npm`
 
