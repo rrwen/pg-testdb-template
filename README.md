@@ -75,12 +75,10 @@ git push
 ### Upload to npm
 
 1. Update the version in `package.json`
-2. Run tests and check for OK status
-3. Login to npm
-4. Publish to npm
+2. Login to npm
+3. Publish to npm
 
 ```
-npm test
 npm login
 npm publish
 ```
