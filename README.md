@@ -87,7 +87,7 @@ npm publish
 
 ### Implementation
 
-The [npm](https://www.npmjs.com/) core package [fs](https://www.npmjs.com/package/fs) used to copy a template from the [pg-testdb-template](https://www.npmjs.com/package/pg-testdb-template) install directory to the user's current directory:
+The [npm](https://www.npmjs.com/) core package [fs](https://www.npmjs.com/package/fs) was used to copy a template from the [pg-testdb-template](https://www.npmjs.com/package/pg-testdb-template) install directory to the user's current directory:
 
 1. Create a read stream with `var read = fs.createReadStream('template.js');`
 2. Create a write stream with `var write = fs.createWriteStream('copy.js');`
