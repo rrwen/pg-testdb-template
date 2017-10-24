@@ -1,13 +1,13 @@
 {
   "name": "pg-testdb-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Command line tool for creating a pg-testdb template file",
   "main": "index.js",
   "bin": {
     "pg-testdb-template": "index.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node ./tests/test.js"
   },
   "repository": {
     "type": "git",
@@ -53,5 +53,9 @@
   "bugs": {
     "url": "https://github.com/rrwen/pg-testdb-template/issues"
   },
-  "homepage": "https://github.com/rrwen/pg-testdb-template#readme"
+  "homepage": "https://github.com/rrwen/pg-testdb-template#readme",
+  "devDependencies": {
+    "moment": "^2.19.1",
+    "tape": "^4.8.0"
+  }
 }

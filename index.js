@@ -18,14 +18,14 @@ if (cmd == '-h' || cmd == 'help' || cmd == '--help') {
 } else {
 
   // (read) Read template file to copy
-  var from = path.resolve(__dirname, 'pg-testdb-template.js');
+  var from = path.resolve(__dirname, 'template.js');
   var read = fs.createReadStream(from);
   read.on('error', function(err) {
     console.error(err);
   });
 
   // (copy) Copy template file to directory
-  var to = process.argv[3] || './pg-testdb-template.js';
+  var to = process.argv[2] || './pg-testdb-template.js';
   var write = fs.createWriteStream(to);
   write.on('error', function(err) {
     console.error(err);

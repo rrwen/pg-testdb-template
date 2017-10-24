@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# Generated template files from test
+pg-testdb-template.js
+pg_tests.js
